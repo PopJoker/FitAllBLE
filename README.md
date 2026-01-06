@@ -1,16 +1,31 @@
-# fit_all_app_01
+# Fit All BLE
 
-A new Flutter project.
+Fit All BLE 是一款使用 Flutter 開發的藍牙掃描與連線管理應用，支援 **BLE 設備搜尋、過濾、連線與詳細資訊查看**。適用於 iOS 與 Android 平台（需授權藍牙與位置權限）。
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 功能特色
 
-A few resources to get you started if this is your first Flutter project:
+- 搜尋附近的藍牙低功耗 (BLE) 設備  
+- 自訂掃描過濾條件：
+  - 隱藏 Unknown Device
+  - 僅顯示有名稱的設備
+  - 設定最小 RSSI (訊號強度)
+  - Auto Rescan 自動重掃描
+- 顯示設備資訊：
+  - 設備名稱、UUID、RSSI
+  - 連線狀態 (已連線 / 連線中)
+- 連線管理：
+  - 點擊「CONNECT」連線設備，連線中鎖定按鈕
+  - 已連線設備可查看詳細資訊
+  - 斷開連線
+- 搜尋列支援關鍵字過濾  
+- 重新掃描與手動掃描按鈕  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 安裝與執行
+
+1. **安裝APK**
+   https://github.com/PopJoker/FitAllBLE/raw/main/flutter-apk/app-release.apk  
+  
