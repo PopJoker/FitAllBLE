@@ -27,5 +27,5 @@ Fit All BLE 是一款使用 Flutter 開發的藍牙掃描與連線管理應用�
 ## 安裝與執行
 
 1. **安裝APK**
-   https://github.com/PopJoker/FitAllBLE/raw/main/flutter-apk/app-release.apk  
+  [ https://github.com/PopJoker/FitAllBLE/raw/main/flutter-apk/app-release.apk  ](https://github.com/PopJoker/FitAllBLE/raw/main/flutter-apk/FitAllBLE.apk)
   
