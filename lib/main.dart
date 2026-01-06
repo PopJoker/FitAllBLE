@@ -1,0 +1,22 @@
+import 'package:flutter/material.dart';
+import 'BLEengPage/BlueToothPage.dart'; 
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Fit All APP',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 0, 0, 0)),
+      ),
+      debugShowCheckedModeBanner: false, 
+      home: const BluetoothPage(),
+    );
+  }
+}
